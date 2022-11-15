@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Oswald:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,300&family=Oswald:wght@300;700&display=swap');
+body
+{
+    background: linear-gradient(180deg,#3aa5a4,#7ae5e4) ;
+}
+#back
+{
+    z-index: -1;
+    opacity: 20%;
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
+#back img
+{
+    width: 800px;
+}
+
+.about img{
+    width: 200px;
+    float: left;
+}
+.about h3
+{
+    margin-top: 0;
+}
+header
+{
+    margin-top: 90px;
+    text-align: center;
+    color: white;
+    line-height: 5px;
+}
+header p
+{
+    font-family: 'Oswald',sans-serif;
+    font-size: 60px;
+}
+.text 
+{
+    float: left;
+    margin: 15px;
+}
+.text img
+{
+    width: 320px;
+    height: 210px;
+}
+h3
+{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+.sp
+{
+    color: rgb(105, 106, 105);
+}
+span
+{
+    font-size: 20px;
+    font-weight:500;
+    color: #000;
+}
+.font
+{
+    font-family: 'Lato',sans-serif;
+}
+.education,.lange,.work,.project,.about,.contact,.social
+{
+    background-color: white;
+    overflow: hidden;
+    width: 1050px;
+    padding: 50px;
+    padding-top: 20px;
+    margin-top: 3%;
+    margin-left: 60px;
+}
+.edu
+{
+    float: left;
+    margin-left: 200px;
+}
+.edu h4,.educ h4
+{
+    position: relative;
+    bottom: 14px;
+}
+.educ
+{
+    float: left;
+}
+.lang
+{
+    float: left;
+    margin-left: 300px;
+}
+.lang1
+{
+    float: left;
+}
+.span
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.sociale img,.socials img
+{
+    position: relative;
+    top: 10px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+}
+.sociale
+{
+    float: left;
+    margin-left: 200px;
+    
+}
+.socials
+{
+    float: left;
+}
+.sociale p,.socials p
+{
+    
+    font-size: large;
+}
+.enter
+{
+    width: 1030px;
+    height: 45px;
+    background-color: rgb(235, 235, 235);
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 30px;
+    outline: none;
+}
+#enter
+{
+    width: 1030px;
+    height: 150px;
+    background-color: rgb(235, 235, 235);
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-left: 30px;
+    outline: none;
+}
+button
+{
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 20px;
+    height: 40px;
+    width: 150px;
+    transition: font-size 1s,width 1s,box-shadow 0.5s;
+}
+button:hover
+{
+    
+    font-size: 20px;
+    width: 170px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0) ;
+}
+footer
+{
+    color: aliceblue;
+    margin: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
